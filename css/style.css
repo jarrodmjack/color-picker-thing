@@ -1,0 +1,31 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+
+
+
+.turtle {
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
+     width: 50%;
+}
+
+img {
+     width: 100%;
+}
+
+
+.golf {
+     position: absolute;
+     width: 50%;
+     font-size: 3rem;
+     color: white;
+     margin-top: 10rem;
+}
